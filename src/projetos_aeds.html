@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>my blog.</title>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/header_footer.css" />
+    <link rel="stylesheet" href="styles/projetos_aeds.css" />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/5efd0e313d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="body">
+    <header class="header">
+      <div class="row main_menu">
+        <div class="logo col-12 col-sm-12 col-md-12 col-lg-4">
+          <a href="/index.html"><p>my blog.</p></a>
+        </div>
+
+        <div class="navbar col-12 col-sm-12 col-md-12 col-lg-8">
+          <!-- Menu Mobile -->
+          <input type="checkbox" id="menuToggle" />
+          <label for="menuToggle" class="menu-icon">
+            <i class="fa fa-bars"></i>
+            <i class="fa fa-times-circle"></i>
+          </label>
+          <!-- Menu mais detalhado -->
+          <nav class="nav menu1">
+            <a class="nav-link active" href="/index.html#lip">LIP</a>
+            <a class="nav-link" href="/index.html#aeds1">AEDS I</a>
+            <a class="nav-link" href="/index.html#diw">DIW</a>
+            <a class="nav-link" href="/index.html#tiaw">TIAW</a>
+            <a class="nav-link" href="/index.html#sobre_mim">Sobre mim</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container container_plataforma">
+        <div class="row sobre_site">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8 title_text">
+            <h1 class="title_blue title_sobre_site">
+              Alguns dos exercícios de C/C++ que eu fiz:
+            </h1>
+            <p class="text_sobre_site"></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container container_blog">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 title_text">
+            <h1 class="title_blue">Estrutura de Repetição</h1>
+            <p class="text">
+              <span class="pergunta">Exercício:</span>
+              Dada uma sequência de Fibonacci 1,1,2,3,5,8,13,....,n, escreva um
+              programa para gerar a sequência até o enésimo termo, o qual deverá
+              ser fornecido pelo usuário. Por exemplo, se o usuário digitou o
+              número 40, deverão ser apresentados os 40 números da sequência na
+              tela. <br /><span class="pergunta">Resolução:</span>
+            </p>
+            <div class="container col-12 fundo_roxo">
+              <script src="http://gist-it.appspot.com/https://github.com/vinicius-gadanha/AEDS-1/blob/master/LISTA-03/exercicio08.c"></script>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container container_blog">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 title_text">
+            <h1 class="title_blue">Ponteiro</h1>
+            <p class="text">
+              <span class="pergunta">Exercício:</span>
+              Implemente uma função que calcule as raízes de uma equação do
+              segundo grau, do tipo ax² + bx + c = 0. Essa função deve obedecer
+              o protótipo: int raízes(float a , float b, float c, float *x1,
+              float *x2); Essa função deve ter como valor de retorno o número de
+              raízes reais e distintas da equação. Se existirem raízes reais,
+              seus valores devem ser armazenados nas variáveis apontadas x1 e
+              x2. Não esqueça de mostrar os resultados na tela.<br /><span
+                class="pergunta"
+                >Resolução:</span
+              >
+            </p>
+            <div class="container col-12 fundo_roxo">
+              <script src="http://gist-it.appspot.com/https://github.com/vinicius-gadanha/AEDS-1/blob/master/LISTA-07/exercicio13.c"></script>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container container_blog">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 title_text">
+            <h1 class="title_blue">Vetor</h1>
+            <p class="text">
+              <span class="pergunta">Exercício:</span>
+              Faça um programa que carregue um vetor de seis elementos numéricos
+              inteiros, calcule e mostre na tela:1)A quantidade de números pares
+              e quais são os números pares. 2)A quantidade de números ímpares e
+              quais são os números ímpares.<br /><span class="pergunta"
+                >Resolução:</span
+              >
+            </p>
+            <div class="container col-12 fundo_roxo">
+              <script src="http://gist-it.appspot.com/https://github.com/vinicius-gadanha/AEDS-1/blob/master/LISTA-10(incompleto)/exercicio02.c"></script>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container container_blog">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 title_text">
+            <h1 class="title_blue">Estrutura(struct)</h1>
+            <p class="text">
+              <span class="pergunta">Exercício:</span>
+              Foi realizada uma pesquisa de algumas características físicas de
+              50 habitantes de uma certa região. De cada habitante foram
+              coletados os seguintes dados: sexo, altura, idade e cor dos olhos
+              (A - Azuis, V - Verdes ou C – Castanhos). Faça um programa que
+              leia esses dados e armazene-os em um registro do tipo vetor.
+              Determine: a) a média de idade das pessoas com olhos castanhos e
+              altura superior a 1.60 m; b) a maior idade entre os habitantes; c)
+              a quantidade de indivíduos do sexo feminino cuja idade esteja
+              entre 20 e 45 anos (inclusive) ou que tenham olhos verdes e altura
+              inferior a 1,70 m; d) o percentual de homens.<br /><span
+                class="pergunta"
+                >Resolução:</span
+              >
+            </p>
+            <div class="container col-12 fundo_roxo">
+              <script src="http://gist-it.appspot.com/https://github.com/vinicius-gadanha/AEDS-1/blob/master/LISTA-12(revisar)/exercicio04.c"></script>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container container_blog">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 title_text">
+            <h1 class="title_blue">Programação Orientada a Objetos (C++)</h1>
+            <p class="text">
+              <span class="pergunta">Exercício:</span>
+              - Crie uma classe PESSOA com os seguintes atributos: nome, idade,
+              endereço e data de nascimento. Essa classe deverá ter um método
+              para cadastrar os dados da pessoa. No entanto, a idade deverá ser
+              calculada a partir da data de nascimento, através de outro método
+              com retorno. Os outros dados deverão ser solicitados para o
+              usuário digitar. Por fim, crie um método para mostrar os dados da
+              PESSOA. Na função principal (main()), crie pelo menos uma
+              instância da classe PESSOA.<br /><span class="pergunta"
+                >Resolução:</span
+              >
+            </p>
+            <div class="container col-12 fundo_roxo">
+              <script src="http://gist-it.appspot.com/https://github.com/vinicius-gadanha/AEDS-1/blob/master/LISTA-13/exercicio06.cpp"></script>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="row menu_footer">
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+          <div class="row">
+            <div class="col-4">
+              <a
+                href="https://github.com/vinicius-gadanha"
+                target="_blank"
+                class="icone"
+              >
+                <i class="fab fa-github fa-3x"></i>
+              </a>
+            </div>
+
+            <div class="col-4">
+              <a
+                href="https://www.linkedin.com/in/vin%C3%ADcius-gadanha-da-cruz-989b89208/"
+                target="_blank"
+                class="icone"
+              >
+                <i class="fab fa-linkedin fa-3x"></i>
+              </a>
+            </div>
+
+            <div class="col-4">
+              <a
+                href="https://www.instagram.com/vinicius_gadanha/"
+                target="_blank"
+                class="icone"
+              >
+                <i class="fab fa-instagram fa-3x"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+          <p class="copyright">© Copyright 2000-2021 PUC Minas</p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

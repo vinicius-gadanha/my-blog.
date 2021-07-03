@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>my blog.</title>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles/header_footer.css" />
+    <link rel="stylesheet" href="src/styles/home_page.css" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/5efd0e313d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="body">
+    <header class="header">
+      <div class="row main_menu">
+        <div class="logo col-12 col-sm-12 col-md-12 col-lg-4">
+          <a href="./index.html"><p>my blog.</p></a>
+        </div>
+
+        <div class="navbar col-12 col-sm-12 col-md-12 col-lg-8">
+          <!-- Menu Mobile -->
+          <input type="checkbox" id="menuToggle" />
+          <label for="menuToggle" class="menu-icon">
+            <i class="fa fa-bars"></i>
+            <i class="fa fa-times-circle"></i>
+          </label>
+          <!-- Menu mais detalhado -->
+          <nav class="nav menu1">
+            <a class="nav-link active" href="#lip">LIP</a>
+            <a class="nav-link" href="#aeds1">AEDS I</a>
+            <a class="nav-link" href="#diw">DIW</a>
+            <a class="nav-link" href="#tiaw">TIAW</a>
+            <a class="nav-link" href="#sobre_mim">Sobre mim</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container container_plataforma">
+        <div class="row sobre_site">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8 title_text">
+            <h1 class="title_blue title_sobre_site">Bem-Vindo!</h1>
+            <p class="text_sobre_site">
+              Este é um blog pessoal, que foi desenvolvido por mim em meus
+              estudos universitários. Nele eu vou compartilhar meus projetos da
+              faculdade, minha trajetória acadêmica e outras coisas sobre mim.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container container_blog" id="lip">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8 title_text">
+            <h1 class="title_blue">
+              LIP - Laboratório de Iniciação a Programação
+            </h1>
+            <p class="text">
+              <span class="pergunta">O que essa disciplina ensina?</span>
+              Introdução à Programação de Computadores. Linguagens e plataformas
+              para programação de computadores. Desenvolvimento de protótipos.
+              Simulação e interação com dispositivos físicos.<br /><br /><span
+                class="pergunta"
+                >O que fiz nessa disciplina?</span
+              >Nessa disciplina eu fiz diversos projetos utlizando
+              <a
+                href="https://scratch.mit.edu/"
+                target="_blank"
+                class="links_sobre_mim"
+                >Scratch</a
+              >
+              para criar jogos e o
+              <a
+                href="https://www.tinkercad.com/"
+                target="_blank"
+                class="links_sobre_mim"
+                >Tinkercad</a
+              >
+              para aprender e utilizar o arduino.<br />
+              <span class="pergunta"
+                >Para ver os projetos criados no Scratch e no Tinkercad, clique
+                no botão ao lado "Projetos - LIP".</span
+              >
+            </p>
+          </div>
+          <div class="button_blog col-12 col-sm-12 col-md-12 col-lg-4">
+            <a href="/src/projetos_lip.html">
+              <button type="button" class="btn btn-primary btn-lg">
+                Projetos - LIP
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container container_plataforma" id="aeds1">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8 title_text">
+            <h1 class="title_blue">
+              AEDS I - Algoritmos e Estrutura de Dados I
+            </h1>
+            <p class="text">
+              <span class="pergunta">O que essa disciplina ensina?</span>
+              Representação e armazenamento de dados. Manipulação e movimentação
+              de dados em memória principal e secundária. Abstração de dados.
+              Estruturas e abstração de controle. Modularização, encapsulamento
+              e herança. Recursividade. Documentação e testes. Implementação em
+              linguagem de programação.<br /><br /><span class="pergunta"
+                >O que fiz nessa disciplina?</span
+              >
+              Nessa disciplina eu aprendi a linguagem de programação
+              <a
+                href="https://blog.betrybe.com/linguagem-de-programacao/linguagem-c/"
+                target="_blank"
+                class="links_sobre_mim"
+                >C</a
+              >
+              e um pouco de
+              <a
+                href="https://www.infoescola.com/informatica/cpp/"
+                target="_blank"
+                class="links_sobre_mim"
+                >C++</a
+              >, fiz diversos exercícios para praticar e aprender mais sobre
+              lógica de programação e a programar em C/C++.<br />
+              <span class="pergunta"
+                >Para ver os projetos criados, clique no botão ao lado "Projetos
+                - AEDS I".</span
+              >
+            </p>
+          </div>
+          <div class="button_plataforma col-12 col-sm-12 col-md-12 col-lg-4">
+            <a href="/src/projetos_aeds.html">
+              <button type="button" class="btn btn-primary btn-lg">
+                Projetos - AEDS I
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container container_plataforma" id="diw">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8 title_text">
+            <h1 class="title_blue">DIW - Desenvolvimento de Interfaces Web</h1>
+            <p class="text">
+              <span class="pergunta">O que essa disciplina ensina?</span>
+              Os padrões web e a importância do seu uso na construção de
+              aplicações Web. As principais linguagens e plataformas de
+              programaçãode interfaces Web. Criar páginas web utilizando os
+              padrões e as linguagens citadas. Apresenta as tendências e novas
+              tecnologias relacionadas à Web e à Internet.<br /><br /><span
+                class="pergunta"
+                >O que fiz nessa disciplina?</span
+              >
+              Nessa disciplina eu aprendi a criar páginas Web utilizando
+              <a
+                href="https://br.godaddy.com/blog/o-que-e-html-e-para-que-serve/"
+                target="_blank"
+                class="links_sobre_mim"
+                >HTML</a
+              >
+              e
+              <a
+                href="https://www.weblink.com.br/blog/programacao/o-que-e-css/"
+                target="_blank"
+                class="links_sobre_mim"
+                >CSS</a
+              >
+              , e também para deixar os sites mais dinâmicos aprendi a utlizar
+              <a
+                href="https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/What_is_JavaScript"
+                target="_blank"
+                class="links_sobre_mim"
+                >JavaScript</a
+              >
+              JavaScript e integrar via
+              <a
+                href="https://canaltech.com.br/software/o-que-e-api/"
+                target="_blank"
+                class="links_sobre_mim"
+                >APIs</a
+              >. Nessa disciplina criei um site totalmente responsivo e com um
+              layout de um portal, com a temática de filmes.<br />
+              <span class="pergunta"
+                >Para acessar o site que eu desenvolvi nessa disciplina, clique
+                no botão ao lado "Projeto - DIW".</span
+              >
+            </p>
+          </div>
+
+          <div class="button_plataforma col-12 col-sm-12 col-md-12 col-lg-4">
+            <a
+              href="https://vinicius-gadanha.github.io/diw-trabalho2/"
+              target="_blanck"
+            >
+              <button type="button" class="btn btn-primary btn-lg">
+                Projeto - DIW
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container container_plataforma" id="tiaw">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8 title_text">
+            <h1 class="title_blue">
+              TIAW - Trabalho interdisciplinar: aplicações web
+            </h1>
+            <p class="text">
+              <span class="pergunta">O que essa disciplina ensina?</span>
+              Desenvolvimento de uma aplicação web front end usando um processo
+              incremental e iterativo. Identificar um problema real a ser
+              resolvido. Detalhar a necessidade a partir da perspectiva do
+              usuário. Descrever os requisitos funcionais e não funcionais.
+              Propor soluções baseadas em software. Conduzir um projeto de
+              maneira sistemática e com trabalho em equipe.
+              <br /><br /><span class="pergunta"
+                >O que fiz nessa disciplina?</span
+              >
+              Nessa disciplina eu aprendi a criar um projeto do zero, utilizando
+              métodos como
+              <a
+                href="https://meusucesso.com/artigos/inovacao-e-tecnologia/o-que-e-design-thinking-conceitos-e-definicoes-132/"
+                target="_blank"
+                class="links_sobre_mim"
+                >Design Thinking</a
+              >
+              e a
+              <a
+                href="https://blog.contaazul.com/metodologia-scrum"
+                target="_blank"
+                class="links_sobre_mim"
+                >metodologia ágil scrum</a
+              >, eu e meu grupo criamos um site com o intuito de ajudar as
+              pessoas que tem dificuldade financeira, por meio de artigos sobre
+              Inteligência Financeira e por uma plataforma para gestão de
+              dinheiro.<br />
+              <span class="pergunta"
+                >Para acessar esse site, clique no botão ao lado "Projeto -
+                TIAW".</span
+              >
+            </p>
+          </div>
+
+          <div class="button_plataforma col-12 col-sm-12 col-md-12 col-lg-4">
+            <a
+              href="https://icei-puc-minas-pplcc-ti.github.io/tiaw-ppl-cc-m-20211-grupo-10-financas/index.html"
+              target="_blanck"
+            >
+              <button type="button" class="btn btn-primary btn-lg">
+                Projeto - TIAW
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container container_plataforma" id="sobre_mim">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-8 title_text">
+            <h1 class="title_blue">Sobre mim:</h1>
+            <p class="text">
+              Prazer, meu nome é Vinícius Gadanha da Cruz, estou cursando
+              Ciência da Computação na universidade
+              <a
+                href="https://www.pucminas.br/"
+                target="_blank"
+                class="links_sobre_mim"
+                >Pontifícia Universidade Católica de Minas Gerais(PUC-Minas)</a
+              >. Escolhi esse curso porque acho essa área muito interessante e
+              vejo um grande potencial nela. Eu começei a conhecer o que é
+              programação com 18 anos, por causa que assisti um vídeo sobre
+              Python no youtube, e a partir desse dia começei a procurar mais
+              sobre, e começei um curso de Python. Para saber mais sobre mim e
+              meus projetos, eu coloquei meu
+              <a
+                href="https://github.com/vinicius-gadanha"
+                target="_blank"
+                class="links_sobre_mim"
+                >github</a
+              >,
+              <a
+                href="https://www.linkedin.com/in/vin%C3%ADcius-gadanha-da-cruz-989b89208/"
+                target="_blank"
+                class="links_sobre_mim"
+                >linkedin</a
+              >
+              e
+              <a
+                href="https://www.instagram.com/vinicius_gadanha/"
+                target="_blank"
+                class="links_sobre_mim"
+                >instagram</a
+              >
+              no rodapé da página e também você pode acessar o meu
+              <a
+                href="http://lattes.cnpq.br/6093396171815874"
+                target="_blank"
+                class="links_sobre_mim"
+                >currículo Lattes</a
+              >
+              clicando na minha foto.
+            </p>
+          </div>
+
+          <div class="texto_sobre_mim col-12 col-sm-12 col-md-12 col-lg-4">
+            <a href="http://lattes.cnpq.br/6093396171815874" target="_blank"
+              ><img
+                class="foto_de_perfil"
+                src="src/images/foto_de_perfil.jpg"
+                alt="Foto"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="row menu_footer">
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+          <div class="row">
+            <div class="col-4">
+              <a
+                href="https://github.com/vinicius-gadanha"
+                target="_blank"
+                class="icone"
+              >
+                <i class="fab fa-github fa-3x"></i>
+              </a>
+            </div>
+
+            <div class="col-4">
+              <a
+                href="https://www.linkedin.com/in/vin%C3%ADcius-gadanha-da-cruz-989b89208/"
+                target="_blank"
+                class="icone"
+              >
+                <i class="fab fa-linkedin fa-3x"></i>
+              </a>
+            </div>
+
+            <div class="col-4">
+              <a
+                href="https://www.instagram.com/vinicius_gadanha/"
+                target="_blank"
+                class="icone"
+              >
+                <i class="fab fa-instagram fa-3x"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+          <p class="copyright">© Copyright 2000-2021 PUC Minas</p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

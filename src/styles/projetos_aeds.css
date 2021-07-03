@@ -1,0 +1,93 @@
+.logo-top {
+  width: 50px;
+}
+
+.container_plataforma {
+  margin-top: 100px;
+}
+
+.container_blog {
+  margin-top: 100px;
+}
+
+.title_text {
+  color: #222831;
+  font-family: "Montserrat", sans-serif;
+}
+
+.title_blue {
+  color: #7971ea;
+}
+
+.pergunta {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 990px) {
+  .btn {
+    width: 50% !important;
+    margin-top: 0px !important;
+  }
+
+  .container_plataforma {
+    margin-top: 55px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .btn {
+    width: 85% !important;
+    margin-top: 0px !important;
+  }
+}
+
+.btn-lg {
+  border-radius: 30px;
+}
+
+.btn-primary {
+  color: #eeeeee;
+  background-color: #7971ea;
+  border-color: #7971ea;
+  margin-top: 50px;
+  width: 80%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn-primary:hover {
+  color: #eeeeee;
+  background-color: #8d85ff;
+  border-color: #7971ea;
+}
+
+.sobre_site {
+  text-align: center;
+  justify-content: center;
+  background-color: #7971ea;
+  border-radius: 45px;
+}
+
+.title_sobre_site {
+  color: #eeeeee;
+  font-size: 60px;
+}
+.text_sobre_site {
+  font-size: x-large;
+  color: #eeeeee;
+}
+
+.foto_de_perfil {
+  width: 260px;
+  height: 260px;
+  border-radius: 175px;
+}
+
+.links_sobre_mim {
+  color: #7971ea;
+}
+
+.fundo_roxo {
+  background-color: #7971ea;
+  justify-content: center;
+  border-radius: 15px;
+  padding: 30px;
+}
